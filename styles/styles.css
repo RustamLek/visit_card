@@ -59,6 +59,11 @@ body {
   display: block;
   width: 40vw;
 }
+@media screen and (max-width: 500px) {
+  .list__link {
+    width: 80vw;
+  }
+}
 .list__icon {
   margin-right: 1em;
 }

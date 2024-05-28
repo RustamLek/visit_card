@@ -54,6 +54,9 @@ body {
     backdrop-filter: contrast(80%) brightness(150%) blur(3px);
     display: block;
     width: 40vw;
+    @media screen and (max-width: 500px) {
+    width: 80vw;  
+    }
   }
   &__icon {
     margin-right: 1em;
